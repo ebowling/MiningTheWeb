@@ -1,0 +1,20 @@
+
+API CALL
+
+https://api.foursquare.com/v2/venues/search?intent=browse&ll=40.73432,-74.00431&
+v=20120609&limit=40&radius=500&client_id=C3DOETAC0PYDBCZQXMGBOCCGV0BIETPAQPDVHWUXKRO0SNI0&client_secret=4JOBSSSTSZKN32YASMIL0QWLK0QNLE2P5ELOWZSH5EU3ZWUL
+
+
+Endpoint = https://api.foursquare.com/v2/venues/search
+
+Parameters
+
+intent=browse
+ll=40.73432,-74.00431
+v=20120609
+limit=40
+radius=500
+
+Authentication 
+Client_id=C3DOETAC0PYDBCZQXMGBOCCGV0BIETPAQPDVHWUXKRO0SNI0
+Client_secret=4JOBSSSTSZKN32YASMIL0QWLK0QNLE2P5ELOWZSH5EU3ZWUL

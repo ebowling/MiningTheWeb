@@ -1,0 +1,41 @@
+
+
+https://api.cityofnewyork.us/geoclient/v1/bin.json?bin=3043340&app_id=393bfd32&app_key=9219770a4bb293a97e1a0e28bb96d168
+
+ Bin #
+
+ 3043340
+
+ app_id=393bfd32
+ app_key=9219770a4bb293a97e1a0e28bb96d168
+
+ https://api.cityofnewyork.us/geoclient/v1/address.json?houseNumber=value"json?address=
+
+
+Request for Address:
+
+ "https://api.cityofnewyork.us/geoclient/v1/address.json?houseNumber=" + value + "&street=" + cells["StreetName"].value + "&zip=" + cells["ZipCode"].value + "&app_id=393bfd32&app_key=9219770a4bb293a97e1a0e28bb96d168"
+
+  "https://api.cityofnewyork.us/geoclient/v1/address.json?houseNumber="
+
+   + 
+
+   cells("HouseNumber"].value 
+
+   + 
+
+   "&street=" 
+
+   + 
+
+  escape(cells["StreetName"].value, 'url') 
+
+   + 
+
+   "&zip=" 
+
+   +
+
+   cells["ZipCode"].value 
+
+   + "&app_id=393bfd32&app_key=9219770a4bb293a97e1a0e28bb96d168"
