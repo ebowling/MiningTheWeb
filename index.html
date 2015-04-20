@@ -46,9 +46,13 @@ The goal of this visualization was to analyze whether the location of soft-drink
     <iframe width='100%' height='520' frameborder='0' src='https://ebowling.cartodb.com/viz/4f3749f8-e21e-11e4-ab8d-0e43f3deba5a/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <div> Visualization: Project Three</div>
-<div> Descriptive text about the project that would help anyone understand the context of the information, the source of the data and the story behind why you made it.</div>
+<div> This visualization is showing metro statistical areas color coded by the 2 digit Locus activity of the job with highest location quotient in that area. The location quotient was derived using Bureau of Labor statistics data. For every job in each MSA, I took the (employment of that job in that MSA/total employment in the MSA)/(the employment of that job nationally)/national employment. I then found the job with the highest LQ and removed all other jobs. 
+
+Once I had the data, I joined the dataset of MSA, LQ, and Locus activity with a polygon shape file of MSAs. I then used the "category" wizard to color code the MSAs. The category wizard only allows for 10 categories, and we had 33 job types to reflect. I used the CartoCSS to add the other categories, but because I didn't want to distinguish between 33 categories, I grouped the jobs by activity and made similar jobs the same color. I then changed the legend to reflect these groups. I also used HTML to change the size and names of the categories.
+
+Lastly, I added an info window which lists the MSA name, name of the job, and LQ for each MSA.  </div>
 </div id="vis3">
-    <iframe width='80%' height='520' frameborder='0'  src='http://zingbot.cartodb.com/viz/f7035212-d58f-11e4-91b5-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <iframe width='100%' height='520' frameborder='0' src='https://ebowling.cartodb.com/viz/46c42cc0-e794-11e4-98ce-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>>
 </div>
 
   </body>
